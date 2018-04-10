@@ -1,4 +1,5 @@
-# mqtt-weatherstation
+# MQTT-Weatherstation
+
 Code for the Solar Powered basic weatherstation
 
 Make sure to set up MQTT with SSL in your Mosquitto broker.
