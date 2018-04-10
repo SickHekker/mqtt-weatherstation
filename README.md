@@ -6,7 +6,7 @@ Make sure to set up MQTT with SSL in your Mosquitto broker.
 My setup pushes the data on the MQTT feed to InfluxDB using Node-RED.
 From there i can visualise this data with Grafana or Node-RED.
 
-```Parts```
+<h1>Parts</h1>
 Wemos D1 mini
 BME280 (i2c)
 TP4056 board (The version with only 4 terminals is easier to solder)
