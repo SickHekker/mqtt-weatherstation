@@ -31,6 +31,7 @@ Adafruit_MQTT_Publish pressure_topic = Adafruit_MQTT_Publish(&mqtt, "/outdoor/se
 Adafruit_MQTT_Publish humidity_topic = Adafruit_MQTT_Publish(&mqtt, "/outdoor/sensors/weatherstation/bme280/humidity");
 
 /*************************** Sketch Code ************************************/
+
 int wifitry = 0;
 
 void setup() {
