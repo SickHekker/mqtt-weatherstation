@@ -26,9 +26,9 @@ Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO
 
 /****************************** Feeds ***************************************/
 
-Adafruit_MQTT_Publish temperature_topic = Adafruit_MQTT_Publish(&mqtt, "/sensors/weatherstation/bme280/temperature");
-Adafruit_MQTT_Publish pressure_topic = Adafruit_MQTT_Publish(&mqtt, "/sensors/weatherstation/bme280/pressure");
-Adafruit_MQTT_Publish humidity_topic = Adafruit_MQTT_Publish(&mqtt, "/sensors/weatherstation/bme280/humidity");
+Adafruit_MQTT_Publish temperature_topic = Adafruit_MQTT_Publish(&mqtt, "/outdoor/sensors/weatherstation/bme280/temperature");
+Adafruit_MQTT_Publish pressure_topic = Adafruit_MQTT_Publish(&mqtt, "/outdoor/sensors/weatherstation/bme280/pressure");
+Adafruit_MQTT_Publish humidity_topic = Adafruit_MQTT_Publish(&mqtt, "/outdoor/sensors/weatherstation/bme280/humidity");
 
 /*************************** Sketch Code ************************************/
 int wifitry = 0;
