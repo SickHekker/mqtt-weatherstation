@@ -19,3 +19,7 @@ Some female pin headers
 Some male pin headers  
 Some breadboard female to female wires for the BME280  
 Protoboard  
+
+# Libraries
+BME280: https://github.com/finitespace/BME280/blob/master/src/BME280I2C.h  
+MQTT: https://github.com/adafruit/Adafruit_MQTT_Library  
