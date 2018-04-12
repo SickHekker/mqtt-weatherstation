@@ -1,6 +1,5 @@
 # MQTT-Weatherstation
-
-Code for the Solar Powered basic weatherstation
+A basic solar powered weatherstation that provides temperature, humidity and pressure.
 
 Make sure to set up MQTT with SSL in your Mosquitto broker.
 
@@ -26,5 +25,5 @@ Some breadboard female to female wires for the BME280
 Protoboard  
 
 # Libraries
-BME280: https://github.com/finitespace/BME280/blob/master/src/BME280I2C.h  
+BME280: https://github.com/finitespace/BME280
 MQTT: https://github.com/adafruit/Adafruit_MQTT_Library  
