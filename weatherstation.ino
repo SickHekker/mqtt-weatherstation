@@ -43,14 +43,14 @@ void setup() {
   Serial.begin(115200);
   delay(10);
   
-  int wifitry = 0;
+  int wifitry = 20;
   
   Serial.println();
   Serial.print("Connecting to ");
   Serial.println(WLAN_SSID);
 
   WiFi.begin(WLAN_SSID, WLAN_PASS);
-  delay(500);
+  delay(250);
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
